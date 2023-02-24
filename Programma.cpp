@@ -29,7 +29,7 @@ void findNameByCod(string cod)
     //  11486 Serge
     //  11487 Marco
 
-    ifstream fileMatricola("../matricola.txt");
+    ifstream fileMatricola("testi/matricola.txt");
     if (fileMatricola.is_open())
     {
         cout << "File matricole.txt aperto correttamente" << endl;
